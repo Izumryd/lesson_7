@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+
+.body {
+   font-family: "Lato",serif;
+   color: #424551;
+}
+ /* article  */
+
+.article__conteiner {
+   max-width: 810px;
+   margin: 0 auto;
+}  
+.article__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   padding-bottom: 26px;
+}
+.article__image {
+   text-align: center;
+   padding-bottom: 60px;   
+}
+.article__image img {
+   max-width: 100%;   
+   border-radius: 4px;
+}
+.article__mein-text {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   padding-bottom: 24px;
+}
+.article__text {
+   line-height: 160%;
+   margin-bottom: 48px;  
+}
+.article__text p {
+   margin-bottom: 22px;
+}
+.article__quote {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%; 
+   color: #1E212C; 
+   margin-left: 58px;
+   margin-bottom: 48px; 
+}
+.article__text {
+
+}
+.article__text ul {
+   margin-bottom: 24px;
+}
+.article__text li {
+   margin-left: 32px;
+   margin-bottom: 4px;
+}
+.practice__conteiner {
+   max-width: 810px;
+   margin: 0 auto;
+}
+.practice__block {
+   padding: 20px;
+   color: #424551;
+   background-image: url("../img/photo2.jpg");
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: cover;  
+   margin-bottom: 40px; 
+}
+.text__block {
+   background-image: url("../img/photo.jpg");
+   padding-left: 400px;
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size:  350px 300px;
+   background-color: rgba(60, 58, 159, 0.544);
+   height: 300px;
+   margin-bottom: 40px;
+}
+.text__block p {
+   color: yellow;
+   padding: 60px;
+   text-shadow: 5px -3px 2px blue;
+}
+.text__photo {  
+   background: url("../img/photo5.jpg") 0 0 / 100% no-repeat fixed;
+   height: 1000px;
+   margin-bottom: 40px;
+   background-size: cover;
+   background-position: 50%;   
+}
+.text__photo p {
+   color: rgb(232, 232, 165);
+   font-size: 33px;
+   text-align: center;  
+}
+.text__text {
+   background: url("../img/photo3.jpg") round;
+   height: 200px;
+   background-size: 400px 200px;  
+   margin-bottom: 40px;
+   background-position: 100%;
+}
+.text__text p {
+   color: rgba(49, 5, 40, 0.855);
+   font-size: 32px;
+   text-align: center;
+   text-shadow: 5px -5px 4px white, 5px -5px 8px black;
+}
+.footer {
+   width: 1200px;
+   height: 600px;
+   margin-left: 150px;
+   margin-bottom: 60px;
+   background: url("../img/photo4.jpg") 20px 20px / 450px no-repeat, url("../img/photo2.jpg") bottom left no-repeat,
+    url("../img/photo3.jpg") top right / 250px no-repeat, url("../img/photo6.jpg") 500px center no-repeat, rgba(14, 231, 205, 0.59);
+}
+.footer h2 {
+   color: white;
+   font-size: 70px;
+   text-align: center; 
+}
+
+
+
+
+
+
+
